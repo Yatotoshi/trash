@@ -325,3 +325,11 @@
 2021/03/04 02:04:43 [notice] 18192#18192: start worker processes
 2021/03/04 02:04:43 [notice] 18192#18192: start worker process 18193
 2021/03/04 02:04:58 [error] 18193#18193: *1 open() "/home/box/web/uploads/index" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 02:13:28 [error] 18193#18193: *3 open() "/home/box/web/uploads/index" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 02:13:39 [notice] 18192#18192: signal 3 (SIGQUIT) received from 18588, shutting down
+2021/03/04 02:13:39 [notice] 18193#18193: gracefully shutting down
+2021/03/04 02:14:28 [notice] 18193#18193: exiting
+2021/03/04 02:14:28 [notice] 18193#18193: exit
+2021/03/04 02:14:28 [notice] 18192#18192: signal 17 (SIGCHLD) received from 18193
+2021/03/04 02:14:28 [notice] 18192#18192: worker process 18193 exited with code 0
+2021/03/04 02:14:28 [notice] 18192#18192: exit
