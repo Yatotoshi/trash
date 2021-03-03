@@ -1,0 +1,327 @@
+2021/03/03 22:00:53 [emerg] 12103#12103: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/03 22:00:53 [notice] 12103#12103: try again to bind() after 500ms
+2021/03/03 22:00:53 [emerg] 12103#12103: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/03 22:00:53 [notice] 12103#12103: try again to bind() after 500ms
+2021/03/03 22:00:53 [emerg] 12103#12103: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/03 22:00:53 [notice] 12103#12103: try again to bind() after 500ms
+2021/03/03 22:00:53 [emerg] 12103#12103: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/03 22:00:53 [notice] 12103#12103: try again to bind() after 500ms
+2021/03/03 22:00:53 [emerg] 12103#12103: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/03 22:00:53 [notice] 12103#12103: try again to bind() after 500ms
+2021/03/03 22:00:53 [emerg] 12103#12103: still could not bind()
+2021/03/03 22:02:39 [emerg] 12520#12520: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/03 22:02:39 [notice] 12520#12520: try again to bind() after 500ms
+2021/03/03 22:02:39 [emerg] 12520#12520: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/03 22:02:39 [notice] 12520#12520: try again to bind() after 500ms
+2021/03/03 22:02:39 [emerg] 12520#12520: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/03 22:02:39 [notice] 12520#12520: try again to bind() after 500ms
+2021/03/03 22:02:39 [emerg] 12520#12520: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/03 22:02:39 [notice] 12520#12520: try again to bind() after 500ms
+2021/03/03 22:02:39 [emerg] 12520#12520: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/03 22:02:39 [notice] 12520#12520: try again to bind() after 500ms
+2021/03/03 22:02:39 [emerg] 12520#12520: still could not bind()
+2021/03/03 22:11:49 [notice] 13307#13307: using the "epoll" event method
+2021/03/03 22:11:49 [notice] 13307#13307: nginx/1.18.0
+2021/03/03 22:11:49 [notice] 13307#13307: OS: Linux 5.10.16-arch1-1
+2021/03/03 22:11:49 [notice] 13307#13307: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/03 22:11:49 [notice] 13308#13308: start worker processes
+2021/03/03 22:11:49 [notice] 13308#13308: start worker process 13309
+2021/03/03 22:12:01 [error] 13309#13309: *1 "/home/yatotoshi/box/web/html/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/03 22:12:01 [error] 13309#13309: *1 open() "/home/yatotoshi/box/web/html/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2021/03/03 22:14:49 [notice] 13308#13308: signal 1 (SIGHUP) received from 13457, reconfiguring
+2021/03/03 22:14:49 [notice] 13308#13308: reconfiguring
+2021/03/03 22:14:49 [notice] 13308#13308: using the "epoll" event method
+2021/03/03 22:14:49 [notice] 13308#13308: start worker processes
+2021/03/03 22:14:49 [notice] 13308#13308: start worker process 13460
+2021/03/03 22:14:49 [notice] 13309#13309: gracefully shutting down
+2021/03/03 22:14:49 [notice] 13309#13309: exiting
+2021/03/03 22:14:49 [notice] 13309#13309: exit
+2021/03/03 22:14:49 [notice] 13308#13308: signal 17 (SIGCHLD) received from 13309
+2021/03/03 22:14:49 [notice] 13308#13308: worker process 13309 exited with code 0
+2021/03/03 22:14:49 [notice] 13308#13308: signal 29 (SIGIO) received
+2021/03/03 22:14:56 [error] 13460#13460: *3 "/home/yatotoshi/box/web/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/03 22:14:56 [error] 13460#13460: *3 open() "/home/yatotoshi/box/web/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2021/03/03 22:14:57 [error] 13460#13460: *3 "/home/yatotoshi/box/web/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/03 22:14:57 [error] 13460#13460: *3 open() "/home/yatotoshi/box/web/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2021/03/03 22:15:28 [notice] 13308#13308: signal 3 (SIGQUIT) received from 13493, shutting down
+2021/03/03 22:15:28 [notice] 13460#13460: gracefully shutting down
+2021/03/03 22:15:56 [notice] 13460#13460: exiting
+2021/03/03 22:15:56 [notice] 13460#13460: exit
+2021/03/03 22:15:56 [notice] 13308#13308: signal 17 (SIGCHLD) received from 13460
+2021/03/03 22:15:56 [notice] 13308#13308: worker process 13460 exited with code 0
+2021/03/03 22:15:56 [notice] 13308#13308: exit
+2021/03/04 01:09:43 [notice] 15474#15474: using the "epoll" event method
+2021/03/04 01:09:43 [notice] 15474#15474: nginx/1.18.0
+2021/03/04 01:09:43 [notice] 15474#15474: OS: Linux 5.10.16-arch1-1
+2021/03/04 01:09:43 [notice] 15474#15474: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 01:09:43 [notice] 15475#15475: start worker processes
+2021/03/04 01:09:43 [notice] 15475#15475: start worker process 15476
+2021/03/04 01:09:49 [error] 15476#15476: *1 "/home/yatotoshi/box/web/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:09:49 [error] 15476#15476: *1 open() "/home/yatotoshi/box/web/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2021/03/04 01:09:56 [error] 15476#15476: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:09:56 [error] 15476#15476: *1 open() "/home/yatotoshi/box/web/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/index.html"
+2021/03/04 01:10:00 [notice] 15475#15475: signal 3 (SIGQUIT) received from 15504, shutting down
+2021/03/04 01:10:00 [notice] 15476#15476: gracefully shutting down
+2021/03/04 01:10:03 [error] 15476#15476: *2 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:10:03 [notice] 15476#15476: exiting
+2021/03/04 01:10:03 [notice] 15476#15476: exit
+2021/03/04 01:10:03 [notice] 15475#15475: signal 17 (SIGCHLD) received from 15476
+2021/03/04 01:10:03 [notice] 15475#15475: worker process 15476 exited with code 0
+2021/03/04 01:10:03 [notice] 15475#15475: exit
+2021/03/04 01:11:16 [notice] 15576#15576: using the "epoll" event method
+2021/03/04 01:11:16 [notice] 15576#15576: nginx/1.18.0
+2021/03/04 01:11:16 [notice] 15576#15576: OS: Linux 5.10.16-arch1-1
+2021/03/04 01:11:16 [notice] 15576#15576: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 01:11:16 [notice] 15577#15577: start worker processes
+2021/03/04 01:11:16 [notice] 15577#15577: start worker process 15578
+2021/03/04 01:11:20 [error] 15578#15578: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:11:20 [error] 15578#15578: *1 open() "/home/yatotoshi/box/web/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/index.html"
+2021/03/04 01:11:21 [error] 15578#15578: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:11:21 [error] 15578#15578: *1 open() "/home/yatotoshi/box/web/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/index.html"
+2021/03/04 01:11:21 [error] 15578#15578: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:11:21 [error] 15578#15578: *1 open() "/home/yatotoshi/box/web/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/index.html"
+2021/03/04 01:17:33 [error] 15578#15578: *3 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:17:33 [error] 15578#15578: *3 open() "/home/yatotoshi/box/web/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/index.html"
+2021/03/04 01:17:34 [error] 15578#15578: *3 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:17:34 [error] 15578#15578: *3 open() "/home/yatotoshi/box/web/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/index.html"
+2021/03/04 01:19:00 [notice] 15577#15577: signal 3 (SIGQUIT) received from 16365, shutting down
+2021/03/04 01:19:00 [notice] 15578#15578: gracefully shutting down
+2021/03/04 01:19:00 [notice] 15578#15578: exiting
+2021/03/04 01:19:00 [notice] 15578#15578: exit
+2021/03/04 01:19:00 [notice] 15577#15577: signal 17 (SIGCHLD) received from 15578
+2021/03/04 01:19:00 [notice] 15577#15577: worker process 15578 exited with code 0
+2021/03/04 01:19:00 [notice] 15577#15577: exit
+2021/03/04 01:19:40 [notice] 16392#16392: using the "epoll" event method
+2021/03/04 01:19:40 [notice] 16392#16392: nginx/1.18.0
+2021/03/04 01:19:40 [notice] 16392#16392: OS: Linux 5.10.16-arch1-1
+2021/03/04 01:19:40 [notice] 16392#16392: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 01:19:40 [notice] 16393#16393: start worker processes
+2021/03/04 01:19:40 [notice] 16393#16393: start worker process 16394
+2021/03/04 01:19:44 [error] 16394#16394: *1 open() "/home/yatotoshi/box/web/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/index.html"
+2021/03/04 01:19:57 [notice] 16393#16393: signal 1 (SIGHUP) received from 16416, reconfiguring
+2021/03/04 01:19:57 [notice] 16393#16393: reconfiguring
+2021/03/04 01:19:57 [emerg] 16393#16393: getpwnam("html") failed in /home/yatotoshi/box/nginx.conf:2
+2021/03/04 01:20:08 [notice] 16393#16393: signal 3 (SIGQUIT) received from 16427, shutting down
+2021/03/04 01:20:08 [notice] 16394#16394: gracefully shutting down
+2021/03/04 01:20:10 [notice] 16394#16394: exiting
+2021/03/04 01:20:10 [notice] 16394#16394: exit
+2021/03/04 01:20:10 [notice] 16393#16393: signal 17 (SIGCHLD) received from 16394
+2021/03/04 01:20:10 [notice] 16393#16393: worker process 16394 exited with code 0
+2021/03/04 01:20:10 [notice] 16393#16393: exit
+2021/03/04 01:20:27 [notice] 16477#16477: using the "epoll" event method
+2021/03/04 01:20:27 [notice] 16477#16477: nginx/1.18.0
+2021/03/04 01:20:27 [notice] 16477#16477: OS: Linux 5.10.16-arch1-1
+2021/03/04 01:20:27 [notice] 16477#16477: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 01:20:27 [notice] 16478#16478: start worker processes
+2021/03/04 01:20:27 [notice] 16478#16478: start worker process 16479
+2021/03/04 01:20:29 [error] 16479#16479: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:20:30 [error] 16479#16479: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:22:31 [error] 16479#16479: *3 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:22:32 [error] 16479#16479: *3 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:22:32 [error] 16479#16479: *3 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:22:32 [error] 16479#16479: *3 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:22:32 [error] 16479#16479: *3 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:22:33 [error] 16479#16479: *3 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:22:33 [error] 16479#16479: *3 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:23:52 [error] 16479#16479: *5 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:23:52 [error] 16479#16479: *5 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:24:43 [error] 16479#16479: *5 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:24:44 [error] 16479#16479: *5 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:24:44 [error] 16479#16479: *5 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:24:44 [error] 16479#16479: *5 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:24:44 [error] 16479#16479: *5 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:24:45 [error] 16479#16479: *5 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:25:42 [error] 16479#16479: *5 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:26:10 [notice] 16478#16478: signal 3 (SIGQUIT) received from 16749, shutting down
+2021/03/04 01:26:10 [notice] 16479#16479: gracefully shutting down
+2021/03/04 01:26:18 [error] 16479#16479: *7 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:26:18 [notice] 16479#16479: exiting
+2021/03/04 01:26:18 [notice] 16479#16479: exit
+2021/03/04 01:26:18 [notice] 16478#16478: signal 17 (SIGCHLD) received from 16479
+2021/03/04 01:26:18 [notice] 16478#16478: worker process 16479 exited with code 0
+2021/03/04 01:26:18 [notice] 16478#16478: exit
+2021/03/04 01:26:24 [notice] 16792#16792: using the "epoll" event method
+2021/03/04 01:26:24 [notice] 16792#16792: nginx/1.18.0
+2021/03/04 01:26:24 [notice] 16792#16792: OS: Linux 5.10.16-arch1-1
+2021/03/04 01:26:24 [notice] 16792#16792: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 01:26:24 [notice] 16793#16793: start worker processes
+2021/03/04 01:26:24 [notice] 16793#16793: start worker process 16794
+2021/03/04 01:26:25 [error] 16794#16794: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:26:26 [error] 16794#16794: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:26:26 [error] 16794#16794: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:29:31 [notice] 16793#16793: signal 3 (SIGQUIT) received from 16910, shutting down
+2021/03/04 01:29:31 [notice] 16794#16794: gracefully shutting down
+2021/03/04 01:29:31 [notice] 16794#16794: exiting
+2021/03/04 01:29:31 [notice] 16794#16794: exit
+2021/03/04 01:29:31 [notice] 16793#16793: signal 17 (SIGCHLD) received from 16794
+2021/03/04 01:29:31 [notice] 16793#16793: worker process 16794 exited with code 0
+2021/03/04 01:29:31 [notice] 16793#16793: exit
+2021/03/04 01:30:09 [notice] 16943#16943: using the "epoll" event method
+2021/03/04 01:30:09 [notice] 16943#16943: nginx/1.18.0
+2021/03/04 01:30:09 [notice] 16943#16943: OS: Linux 5.10.16-arch1-1
+2021/03/04 01:30:09 [notice] 16943#16943: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 01:30:09 [notice] 16944#16944: start worker processes
+2021/03/04 01:30:09 [notice] 16944#16944: start worker process 16945
+2021/03/04 01:30:14 [error] 16945#16945: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:30:15 [error] 16945#16945: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:30:15 [error] 16945#16945: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:30:16 [error] 16945#16945: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:30:16 [error] 16945#16945: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:30:16 [error] 16945#16945: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:30:16 [error] 16945#16945: *1 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:30:19 [error] 16945#16945: *1 "/home/yatotoshi/box/web/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:32:28 [error] 16945#16945: *3 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:32:29 [error] 16945#16945: *3 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:34:10 [notice] 16944#16944: signal 1 (SIGHUP) received from 17084, reconfiguring
+2021/03/04 01:34:10 [notice] 16944#16944: reconfiguring
+2021/03/04 01:34:10 [notice] 16944#16944: using the "epoll" event method
+2021/03/04 01:34:10 [notice] 16944#16944: start worker processes
+2021/03/04 01:34:10 [notice] 16944#16944: start worker process 17087
+2021/03/04 01:34:10 [notice] 16945#16945: gracefully shutting down
+2021/03/04 01:34:10 [notice] 16945#16945: exiting
+2021/03/04 01:34:10 [notice] 16945#16945: exit
+2021/03/04 01:34:10 [notice] 16944#16944: signal 17 (SIGCHLD) received from 16945
+2021/03/04 01:34:10 [notice] 16944#16944: worker process 16945 exited with code 0
+2021/03/04 01:34:10 [notice] 16944#16944: signal 29 (SIGIO) received
+2021/03/04 01:34:20 [notice] 16944#16944: signal 1 (SIGHUP) received from 17099, reconfiguring
+2021/03/04 01:34:20 [notice] 16944#16944: reconfiguring
+2021/03/04 01:34:20 [notice] 16944#16944: using the "epoll" event method
+2021/03/04 01:34:20 [notice] 16944#16944: start worker processes
+2021/03/04 01:34:20 [notice] 16944#16944: start worker process 17101
+2021/03/04 01:34:20 [notice] 17087#17087: gracefully shutting down
+2021/03/04 01:34:22 [notice] 17087#17087: exiting
+2021/03/04 01:34:22 [notice] 17087#17087: exit
+2021/03/04 01:34:23 [notice] 16944#16944: signal 17 (SIGCHLD) received from 17087
+2021/03/04 01:34:23 [notice] 16944#16944: worker process 17087 exited with code 0
+2021/03/04 01:34:23 [notice] 16944#16944: signal 29 (SIGIO) received
+2021/03/04 01:34:23 [error] 17101#17101: *7 open() "/home/yatotoshi/box/web/index.html" failed (13: Permission denied), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:45:50 [notice] 16944#16944: signal 3 (SIGQUIT) received from 17431, shutting down
+2021/03/04 01:45:50 [notice] 17101#17101: gracefully shutting down
+2021/03/04 01:45:50 [notice] 17101#17101: exiting
+2021/03/04 01:45:50 [notice] 17101#17101: exit
+2021/03/04 01:45:50 [notice] 16944#16944: signal 17 (SIGCHLD) received from 17101
+2021/03/04 01:45:50 [notice] 16944#16944: worker process 17101 exited with code 0
+2021/03/04 01:45:50 [notice] 16944#16944: exit
+2021/03/04 01:46:50 [notice] 17449#17449: using the "epoll" event method
+2021/03/04 01:46:50 [notice] 17449#17449: nginx/1.18.0
+2021/03/04 01:46:50 [notice] 17449#17449: OS: Linux 5.10.16-arch1-1
+2021/03/04 01:46:50 [notice] 17449#17449: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 01:46:50 [notice] 17450#17450: start worker processes
+2021/03/04 01:46:50 [notice] 17450#17450: start worker process 17451
+2021/03/04 01:46:56 [error] 17451#17451: *1 open() "/home/box/web/public/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:46:57 [error] 17451#17451: *1 open() "/home/box/web/public/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:46:57 [error] 17451#17451: *1 open() "/home/box/web/public/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:52:22 [error] 17451#17451: *5 directory index of "/home/box/web/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:52:25 [error] 17451#17451: *5 directory index of "/home/box/web/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:52:37 [error] 17451#17451: *5 directory index of "/home/box/web/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:52:42 [error] 17451#17451: *5 open() "/home/box/web/a" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /a HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:52:46 [error] 17451#17451: *5 open() "/home/box/web/public/a.txt" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /a.txt HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:52:48 [error] 17451#17451: *5 open() "/home/box/web/public/a.txt" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /a.txt HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:53:51 [error] 17451#17451: *5 open() "/home/box/web/public/uploads/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:54:13 [notice] 17450#17450: signal 3 (SIGQUIT) received from 17843, shutting down
+2021/03/04 01:54:13 [notice] 17451#17451: gracefully shutting down
+2021/03/04 01:54:20 [notice] 17847#17847: using the "epoll" event method
+2021/03/04 01:54:20 [notice] 17847#17847: nginx/1.18.0
+2021/03/04 01:54:20 [notice] 17847#17847: OS: Linux 5.10.16-arch1-1
+2021/03/04 01:54:20 [notice] 17847#17847: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 01:54:20 [notice] 17848#17848: start worker processes
+2021/03/04 01:54:20 [notice] 17848#17848: start worker process 17849
+2021/03/04 01:54:21 [error] 17451#17451: *7 open() "/home/box/web/public/uploads/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:54:21 [notice] 17451#17451: exiting
+2021/03/04 01:54:21 [notice] 17451#17451: exit
+2021/03/04 01:54:21 [notice] 17450#17450: signal 17 (SIGCHLD) received from 17451
+2021/03/04 01:54:21 [notice] 17450#17450: worker process 17451 exited with code 0
+2021/03/04 01:54:21 [notice] 17450#17450: exit
+2021/03/04 01:54:22 [error] 17849#17849: *1 open() "/home/box/web/uploads/uploads/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:54:22 [error] 17849#17849: *1 open() "/home/box/web/uploads/uploads/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:54:22 [error] 17849#17849: *1 open() "/home/box/web/uploads/uploads/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:54:22 [error] 17849#17849: *1 open() "/home/box/web/uploads/uploads/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:54:23 [error] 17849#17849: *1 open() "/home/box/web/uploads/uploads/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:55:01 [error] 17849#17849: *1 open() "/home/box/web/uploads/uploads/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:55:01 [error] 17849#17849: *1 open() "/home/box/web/uploads/uploads/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:55:01 [error] 17849#17849: *1 open() "/home/box/web/uploads/uploads/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:55:02 [error] 17849#17849: *1 open() "/home/box/web/uploads/uploads/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:55:02 [error] 17849#17849: *1 open() "/home/box/web/uploads/uploads/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:55:02 [error] 17849#17849: *1 open() "/home/box/web/uploads/uploads/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:55:02 [error] 17849#17849: *1 open() "/home/box/web/uploads/uploads/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:56:53 [emerg] 17922#17922: bind() to 0.0.0.0:8080 failed (98: Unknown error)
+2021/03/04 01:56:53 [notice] 17922#17922: try again to bind() after 500ms
+2021/03/04 01:56:53 [emerg] 17922#17922: bind() to 0.0.0.0:8080 failed (98: Unknown error)
+2021/03/04 01:56:53 [notice] 17922#17922: try again to bind() after 500ms
+2021/03/04 01:56:53 [emerg] 17922#17922: bind() to 0.0.0.0:8080 failed (98: Unknown error)
+2021/03/04 01:56:53 [notice] 17922#17922: try again to bind() after 500ms
+2021/03/04 01:56:53 [emerg] 17922#17922: bind() to 0.0.0.0:8080 failed (98: Unknown error)
+2021/03/04 01:56:53 [notice] 17922#17922: try again to bind() after 500ms
+2021/03/04 01:56:53 [emerg] 17922#17922: bind() to 0.0.0.0:8080 failed (98: Unknown error)
+2021/03/04 01:56:53 [notice] 17922#17922: try again to bind() after 500ms
+2021/03/04 01:56:53 [emerg] 17922#17922: still could not bind()
+2021/03/04 01:57:47 [notice] 17848#17848: signal 15 (SIGTERM) received from 17942, exiting
+2021/03/04 01:57:47 [notice] 17849#17849: exiting
+2021/03/04 01:57:47 [notice] 17849#17849: exit
+2021/03/04 01:57:47 [notice] 17848#17848: signal 17 (SIGCHLD) received from 17849
+2021/03/04 01:57:47 [notice] 17848#17848: worker process 17849 exited with code 0
+2021/03/04 01:57:47 [alert] 17848#17848: unlink() "/run/nginx.pid" failed (2: No such file or directory)
+2021/03/04 01:57:47 [notice] 17848#17848: exit
+2021/03/04 01:57:53 [notice] 17952#17952: using the "epoll" event method
+2021/03/04 01:57:53 [notice] 17952#17952: nginx/1.18.0
+2021/03/04 01:57:53 [notice] 17952#17952: OS: Linux 5.10.16-arch1-1
+2021/03/04 01:57:53 [notice] 17952#17952: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 01:57:53 [notice] 17953#17953: start worker processes
+2021/03/04 01:57:53 [notice] 17953#17953: start worker process 17954
+2021/03/04 01:58:01 [error] 17954#17954: *1 open() "/home/box/web/uploadsindex.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:58:29 [notice] 17953#17953: signal 3 (SIGQUIT) received from 17976, shutting down
+2021/03/04 01:58:29 [notice] 17954#17954: gracefully shutting down
+2021/03/04 01:58:31 [notice] 17981#17981: using the "epoll" event method
+2021/03/04 01:58:31 [notice] 17981#17981: nginx/1.18.0
+2021/03/04 01:58:31 [notice] 17981#17981: OS: Linux 5.10.16-arch1-1
+2021/03/04 01:58:31 [notice] 17981#17981: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 01:58:31 [notice] 17982#17982: start worker processes
+2021/03/04 01:58:31 [notice] 17982#17982: start worker process 17983
+2021/03/04 01:58:33 [error] 17954#17954: *2 open() "/home/box/web/uploadsindex.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index.html HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 01:58:33 [notice] 17954#17954: exiting
+2021/03/04 01:58:33 [notice] 17954#17954: exit
+2021/03/04 01:58:33 [notice] 17953#17953: signal 17 (SIGCHLD) received from 17954
+2021/03/04 01:58:33 [notice] 17953#17953: worker process 17954 exited with code 0
+2021/03/04 01:58:33 [notice] 17953#17953: exit
+2021/03/04 02:01:05 [error] 17983#17983: *3 open() "/etc/nginx/html/img/cat.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /img/cat.jpg HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 02:01:40 [error] 17983#17983: *3 open() "/etc/nginx/html/img/cat.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /img/cat.jpg HTTP/1.1", host: "0.0.0.0:8080"
+2021/03/04 02:02:04 [emerg] 18074#18074: bind() to 0.0.0.0:8080 failed (98: Unknown error)
+2021/03/04 02:02:04 [notice] 18074#18074: try again to bind() after 500ms
+2021/03/04 02:02:04 [emerg] 18074#18074: bind() to 0.0.0.0:8080 failed (98: Unknown error)
+2021/03/04 02:02:04 [notice] 18074#18074: try again to bind() after 500ms
+2021/03/04 02:02:04 [emerg] 18074#18074: bind() to 0.0.0.0:8080 failed (98: Unknown error)
+2021/03/04 02:02:04 [notice] 18074#18074: try again to bind() after 500ms
+2021/03/04 02:02:20 [emerg] 18088#18088: bind() to 0.0.0.0:8080 failed (98: Unknown error)
+2021/03/04 02:02:20 [notice] 18088#18088: try again to bind() after 500ms
+2021/03/04 02:02:20 [emerg] 18088#18088: bind() to 0.0.0.0:8080 failed (98: Unknown error)
+2021/03/04 02:02:20 [notice] 18088#18088: try again to bind() after 500ms
+2021/03/04 02:02:20 [emerg] 18088#18088: bind() to 0.0.0.0:8080 failed (98: Unknown error)
+2021/03/04 02:02:20 [notice] 18088#18088: try again to bind() after 500ms
+2021/03/04 02:02:34 [notice] 17982#17982: signal 15 (SIGTERM) received from 18099, exiting
+2021/03/04 02:02:34 [notice] 17983#17983: exiting
+2021/03/04 02:02:34 [notice] 17983#17983: exit
+2021/03/04 02:02:34 [notice] 17982#17982: signal 14 (SIGALRM) received
+2021/03/04 02:02:34 [notice] 17982#17982: signal 17 (SIGCHLD) received from 17983
+2021/03/04 02:02:34 [notice] 17982#17982: worker process 17983 exited with code 0
+2021/03/04 02:02:34 [alert] 17982#17982: unlink() "/run/nginx.pid" failed (2: No such file or directory)
+2021/03/04 02:02:34 [notice] 17982#17982: exit
+2021/03/04 02:02:38 [notice] 18104#18104: using the "epoll" event method
+2021/03/04 02:02:38 [notice] 18104#18104: nginx/1.18.0
+2021/03/04 02:02:38 [notice] 18104#18104: OS: Linux 5.10.16-arch1-1
+2021/03/04 02:02:38 [notice] 18104#18104: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 02:02:38 [notice] 18105#18105: start worker processes
+2021/03/04 02:02:38 [notice] 18105#18105: start worker process 18106
+2021/03/04 02:04:37 [notice] 18105#18105: signal 3 (SIGQUIT) received from 18183, shutting down
+2021/03/04 02:04:37 [notice] 18106#18106: gracefully shutting down
+2021/03/04 02:04:37 [notice] 18106#18106: exiting
+2021/03/04 02:04:37 [notice] 18106#18106: exit
+2021/03/04 02:04:37 [notice] 18105#18105: signal 17 (SIGCHLD) received from 18106
+2021/03/04 02:04:37 [notice] 18105#18105: worker process 18106 exited with code 0
+2021/03/04 02:04:37 [notice] 18105#18105: exit
+2021/03/04 02:04:43 [notice] 18191#18191: using the "epoll" event method
+2021/03/04 02:04:43 [notice] 18191#18191: nginx/1.18.0
+2021/03/04 02:04:43 [notice] 18191#18191: OS: Linux 5.10.16-arch1-1
+2021/03/04 02:04:43 [notice] 18191#18191: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 02:04:43 [notice] 18192#18192: start worker processes
+2021/03/04 02:04:43 [notice] 18192#18192: start worker process 18193
+2021/03/04 02:04:58 [error] 18193#18193: *1 open() "/home/box/web/uploads/index" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /uploads/index HTTP/1.1", host: "0.0.0.0:8080"
