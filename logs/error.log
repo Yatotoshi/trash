@@ -333,3 +333,86 @@
 2021/03/04 02:14:28 [notice] 18192#18192: signal 17 (SIGCHLD) received from 18193
 2021/03/04 02:14:28 [notice] 18192#18192: worker process 18193 exited with code 0
 2021/03/04 02:14:28 [notice] 18192#18192: exit
+2021/03/04 17:08:57 [emerg] 6606#6606: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/04 17:08:57 [notice] 6606#6606: try again to bind() after 500ms
+2021/03/04 17:08:57 [emerg] 6606#6606: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/04 17:08:57 [notice] 6606#6606: try again to bind() after 500ms
+2021/03/04 17:08:57 [emerg] 6606#6606: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/04 17:08:57 [notice] 6606#6606: try again to bind() after 500ms
+2021/03/04 17:08:57 [emerg] 6606#6606: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/04 17:08:57 [notice] 6606#6606: try again to bind() after 500ms
+2021/03/04 17:08:57 [emerg] 6606#6606: bind() to 0.0.0.0:80 failed (98: Unknown error)
+2021/03/04 17:08:57 [notice] 6606#6606: try again to bind() after 500ms
+2021/03/04 17:08:57 [emerg] 6606#6606: still could not bind()
+2021/03/04 17:15:01 [notice] 6909#6909: using the "epoll" event method
+2021/03/04 17:15:01 [notice] 6909#6909: nginx/1.18.0
+2021/03/04 17:15:01 [notice] 6909#6909: OS: Linux 5.10.16-arch1-1
+2021/03/04 17:15:01 [notice] 6909#6909: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 17:15:01 [notice] 6910#6910: start worker processes
+2021/03/04 17:15:01 [notice] 6910#6910: start worker process 6911
+2021/03/04 17:16:44 [notice] 6910#6910: signal 3 (SIGQUIT) received from 7010, shutting down
+2021/03/04 17:16:44 [notice] 6911#6911: gracefully shutting down
+2021/03/04 17:16:52 [notice] 6911#6911: exiting
+2021/03/04 17:16:52 [notice] 6911#6911: exit
+2021/03/04 17:16:52 [notice] 6910#6910: signal 17 (SIGCHLD) received from 6911
+2021/03/04 17:16:52 [notice] 6910#6910: worker process 6911 exited with code 0
+2021/03/04 17:16:52 [notice] 6910#6910: exit
+2021/03/04 17:16:55 [notice] 7043#7043: using the "epoll" event method
+2021/03/04 17:16:55 [notice] 7043#7043: nginx/1.18.0
+2021/03/04 17:16:55 [notice] 7043#7043: OS: Linux 5.10.16-arch1-1
+2021/03/04 17:16:55 [notice] 7043#7043: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 17:16:55 [notice] 7044#7044: start worker processes
+2021/03/04 17:16:55 [notice] 7044#7044: start worker process 7045
+2021/03/04 17:18:39 [notice] 7044#7044: signal 3 (SIGQUIT) received from 7140, shutting down
+2021/03/04 17:18:39 [notice] 7045#7045: gracefully shutting down
+2021/03/04 17:18:39 [notice] 7045#7045: exiting
+2021/03/04 17:18:39 [notice] 7045#7045: exit
+2021/03/04 17:18:39 [notice] 7044#7044: signal 17 (SIGCHLD) received from 7045
+2021/03/04 17:18:39 [notice] 7044#7044: worker process 7045 exited with code 0
+2021/03/04 17:18:39 [notice] 7044#7044: exit
+2021/03/04 17:18:40 [notice] 7144#7144: using the "epoll" event method
+2021/03/04 17:18:40 [notice] 7144#7144: nginx/1.18.0
+2021/03/04 17:18:40 [notice] 7144#7144: OS: Linux 5.10.16-arch1-1
+2021/03/04 17:18:40 [notice] 7144#7144: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 17:18:40 [notice] 7145#7145: start worker processes
+2021/03/04 17:18:40 [notice] 7145#7145: start worker process 7146
+2021/03/04 17:18:47 [error] 7146#7146: *1 open() "/home/box/web/public/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8081", referrer: "http://0.0.0.0:8081/?hi=1&bye=2"
+2021/03/04 17:20:51 [notice] 7145#7145: signal 3 (SIGQUIT) received from 7179, shutting down
+2021/03/04 17:20:51 [notice] 7146#7146: gracefully shutting down
+2021/03/04 17:20:51 [notice] 7146#7146: exiting
+2021/03/04 17:20:51 [notice] 7146#7146: exit
+2021/03/04 17:20:51 [notice] 7145#7145: signal 17 (SIGCHLD) received from 7146
+2021/03/04 17:20:51 [notice] 7145#7145: worker process 7146 exited with code 0
+2021/03/04 17:20:51 [notice] 7145#7145: exit
+2021/03/04 17:21:11 [notice] 7198#7198: using the "epoll" event method
+2021/03/04 17:21:11 [notice] 7198#7198: nginx/1.18.0
+2021/03/04 17:21:11 [notice] 7198#7198: OS: Linux 5.10.16-arch1-1
+2021/03/04 17:21:11 [notice] 7198#7198: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 17:21:11 [notice] 7199#7199: start worker processes
+2021/03/04 17:21:11 [notice] 7199#7199: start worker process 7200
+2021/03/04 17:21:44 [notice] 7199#7199: signal 3 (SIGQUIT) received from 7221, shutting down
+2021/03/04 17:21:44 [notice] 7200#7200: gracefully shutting down
+2021/03/04 17:21:45 [notice] 7225#7225: using the "epoll" event method
+2021/03/04 17:21:45 [notice] 7225#7225: nginx/1.18.0
+2021/03/04 17:21:45 [notice] 7225#7225: OS: Linux 5.10.16-arch1-1
+2021/03/04 17:21:45 [notice] 7225#7225: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 17:21:45 [notice] 7226#7226: start worker processes
+2021/03/04 17:21:45 [notice] 7226#7226: start worker process 7227
+2021/03/04 17:22:01 [notice] 7226#7226: signal 3 (SIGQUIT) received from 7236, shutting down
+2021/03/04 17:22:01 [notice] 7227#7227: gracefully shutting down
+2021/03/04 17:22:01 [notice] 7227#7227: exiting
+2021/03/04 17:22:01 [notice] 7227#7227: exit
+2021/03/04 17:22:01 [notice] 7226#7226: signal 17 (SIGCHLD) received from 7227
+2021/03/04 17:22:01 [notice] 7226#7226: worker process 7227 exited with code 0
+2021/03/04 17:22:01 [notice] 7226#7226: exit
+2021/03/04 17:22:02 [notice] 7241#7241: using the "epoll" event method
+2021/03/04 17:22:02 [notice] 7241#7241: nginx/1.18.0
+2021/03/04 17:22:02 [notice] 7241#7241: OS: Linux 5.10.16-arch1-1
+2021/03/04 17:22:02 [notice] 7241#7241: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/04 17:22:02 [notice] 7242#7242: start worker processes
+2021/03/04 17:22:02 [notice] 7242#7242: start worker process 7243
+2021/03/04 17:22:06 [notice] 7200#7200: exiting
+2021/03/04 17:22:06 [notice] 7200#7200: exit
+2021/03/04 17:22:06 [notice] 7199#7199: signal 17 (SIGCHLD) received from 7200
+2021/03/04 17:22:06 [notice] 7199#7199: worker process 7200 exited with code 0
+2021/03/04 17:22:06 [notice] 7199#7199: exit
