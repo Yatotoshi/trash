@@ -416,3 +416,5 @@
 2021/03/04 17:22:06 [notice] 7199#7199: signal 17 (SIGCHLD) received from 7200
 2021/03/04 17:22:06 [notice] 7199#7199: worker process 7200 exited with code 0
 2021/03/04 17:22:06 [notice] 7199#7199: exit
+2021/03/04 17:25:01 [error] 7243#7243: *4 open() "/home/box/web/public/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/?a=1&a=2&b=3"
+2021/03/04 17:25:15 [error] 7243#7243: *4 connect() failed (111: Unknown error) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /?a=1&a=2&b=3 HTTP/1.1", upstream: "http://0.0.0.0:8080/?a=1&a=2&b=3", host: "127.0.0.1"
