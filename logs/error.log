@@ -513,3 +513,16 @@
 2021/03/12 14:16:30 [notice] 4355#4355: signal 17 (SIGCHLD) received from 5091
 2021/03/12 14:16:30 [notice] 4355#4355: worker process 5091 exited with code 0
 2021/03/12 14:16:30 [notice] 4355#4355: exit
+2021/03/12 14:20:45 [notice] 5310#5310: using the "epoll" event method
+2021/03/12 14:20:45 [notice] 5310#5310: nginx/1.18.0
+2021/03/12 14:20:45 [notice] 5310#5310: OS: Linux 5.10.16-arch1-1
+2021/03/12 14:20:45 [notice] 5310#5310: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/12 14:20:45 [notice] 5311#5311: start worker processes
+2021/03/12 14:20:45 [notice] 5311#5311: start worker process 5312
+2021/03/12 14:21:05 [notice] 5311#5311: signal 3 (SIGQUIT) received from 5360, shutting down
+2021/03/12 14:21:05 [notice] 5312#5312: gracefully shutting down
+2021/03/12 14:21:55 [notice] 5312#5312: exiting
+2021/03/12 14:21:55 [notice] 5312#5312: exit
+2021/03/12 14:21:55 [notice] 5311#5311: signal 17 (SIGCHLD) received from 5312
+2021/03/12 14:21:55 [notice] 5311#5311: worker process 5312 exited with code 0
+2021/03/12 14:21:55 [notice] 5311#5311: exit
