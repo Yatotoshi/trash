@@ -418,3 +418,98 @@
 2021/03/04 17:22:06 [notice] 7199#7199: exit
 2021/03/04 17:25:01 [error] 7243#7243: *4 open() "/home/box/web/public/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/?a=1&a=2&b=3"
 2021/03/04 17:25:15 [error] 7243#7243: *4 connect() failed (111: Unknown error) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /?a=1&a=2&b=3 HTTP/1.1", upstream: "http://0.0.0.0:8080/?a=1&a=2&b=3", host: "127.0.0.1"
+2021/03/12 13:45:05 [notice] 3571#3571: using the "epoll" event method
+2021/03/12 13:45:05 [notice] 3571#3571: nginx/1.18.0
+2021/03/12 13:45:05 [notice] 3571#3571: OS: Linux 5.10.16-arch1-1
+2021/03/12 13:45:05 [notice] 3571#3571: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/12 13:45:05 [notice] 3572#3572: start worker processes
+2021/03/12 13:45:05 [notice] 3572#3572: start worker process 3573
+2021/03/12 13:45:23 [notice] 3572#3572: signal 3 (SIGQUIT) received from 3586, shutting down
+2021/03/12 13:45:23 [notice] 3573#3573: gracefully shutting down
+2021/03/12 13:45:23 [notice] 3573#3573: exiting
+2021/03/12 13:45:23 [notice] 3573#3573: exit
+2021/03/12 13:45:23 [notice] 3572#3572: signal 17 (SIGCHLD) received from 3573
+2021/03/12 13:45:23 [notice] 3572#3572: worker process 3573 exited with code 0
+2021/03/12 13:45:23 [notice] 3572#3572: exit
+2021/03/12 13:46:49 [notice] 3609#3609: using the "epoll" event method
+2021/03/12 13:46:49 [notice] 3609#3609: nginx/1.18.0
+2021/03/12 13:46:49 [notice] 3609#3609: OS: Linux 5.10.16-arch1-1
+2021/03/12 13:46:49 [notice] 3609#3609: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/12 13:46:49 [notice] 3610#3610: start worker processes
+2021/03/12 13:46:49 [notice] 3610#3610: start worker process 3611
+2021/03/12 13:51:41 [notice] 3610#3610: signal 3 (SIGQUIT) received from 3801, shutting down
+2021/03/12 13:51:41 [notice] 3611#3611: gracefully shutting down
+2021/03/12 13:51:41 [notice] 3611#3611: exiting
+2021/03/12 13:51:41 [notice] 3611#3611: exit
+2021/03/12 13:51:41 [notice] 3610#3610: signal 17 (SIGCHLD) received from 3611
+2021/03/12 13:51:41 [notice] 3610#3610: worker process 3611 exited with code 0
+2021/03/12 13:51:41 [notice] 3610#3610: exit
+2021/03/12 13:58:54 [notice] 4156#4156: using the "epoll" event method
+2021/03/12 13:58:54 [notice] 4156#4156: nginx/1.18.0
+2021/03/12 13:58:54 [notice] 4156#4156: OS: Linux 5.10.16-arch1-1
+2021/03/12 13:58:54 [notice] 4156#4156: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/12 13:58:54 [notice] 4157#4157: start worker processes
+2021/03/12 13:58:54 [notice] 4157#4157: start worker process 4158
+2021/03/12 13:59:35 [notice] 4157#4157: signal 3 (SIGQUIT) received from 4173, shutting down
+2021/03/12 13:59:35 [notice] 4158#4158: gracefully shutting down
+2021/03/12 13:59:35 [notice] 4158#4158: exiting
+2021/03/12 13:59:35 [notice] 4158#4158: exit
+2021/03/12 13:59:35 [notice] 4157#4157: signal 17 (SIGCHLD) received from 4158
+2021/03/12 13:59:35 [notice] 4157#4157: worker process 4158 exited with code 0
+2021/03/12 13:59:35 [notice] 4157#4157: exit
+2021/03/12 14:00:04 [notice] 4189#4189: using the "epoll" event method
+2021/03/12 14:00:04 [notice] 4189#4189: nginx/1.18.0
+2021/03/12 14:00:04 [notice] 4189#4189: OS: Linux 5.10.16-arch1-1
+2021/03/12 14:00:04 [notice] 4189#4189: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/12 14:00:04 [notice] 4190#4190: start worker processes
+2021/03/12 14:00:04 [notice] 4190#4190: start worker process 4191
+2021/03/12 14:02:08 [notice] 4190#4190: signal 3 (SIGQUIT) received from 4267, shutting down
+2021/03/12 14:02:08 [notice] 4191#4191: gracefully shutting down
+2021/03/12 14:02:08 [notice] 4191#4191: exiting
+2021/03/12 14:02:08 [notice] 4191#4191: exit
+2021/03/12 14:02:08 [notice] 4190#4190: signal 17 (SIGCHLD) received from 4191
+2021/03/12 14:02:08 [notice] 4190#4190: worker process 4191 exited with code 0
+2021/03/12 14:02:08 [notice] 4190#4190: exit
+2021/03/12 14:03:50 [notice] 4319#4319: using the "epoll" event method
+2021/03/12 14:03:50 [notice] 4319#4319: nginx/1.18.0
+2021/03/12 14:03:50 [notice] 4319#4319: OS: Linux 5.10.16-arch1-1
+2021/03/12 14:03:50 [notice] 4319#4319: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/12 14:03:50 [notice] 4320#4320: start worker processes
+2021/03/12 14:03:50 [notice] 4320#4320: start worker process 4321
+2021/03/12 14:04:31 [notice] 4320#4320: signal 3 (SIGQUIT) received from 4343, shutting down
+2021/03/12 14:04:31 [notice] 4321#4321: gracefully shutting down
+2021/03/12 14:04:31 [notice] 4321#4321: exiting
+2021/03/12 14:04:31 [notice] 4321#4321: exit
+2021/03/12 14:04:31 [notice] 4320#4320: signal 17 (SIGCHLD) received from 4321
+2021/03/12 14:04:31 [notice] 4320#4320: worker process 4321 exited with code 0
+2021/03/12 14:04:31 [notice] 4320#4320: exit
+2021/03/12 14:04:46 [notice] 4354#4354: using the "epoll" event method
+2021/03/12 14:04:46 [notice] 4354#4354: nginx/1.18.0
+2021/03/12 14:04:46 [notice] 4354#4354: OS: Linux 5.10.16-arch1-1
+2021/03/12 14:04:46 [notice] 4354#4354: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/12 14:04:46 [notice] 4355#4355: start worker processes
+2021/03/12 14:04:46 [notice] 4355#4355: start worker process 4356
+2021/03/12 14:14:00 [notice] 4355#4355: signal 1 (SIGHUP) received from 5012, reconfiguring
+2021/03/12 14:14:00 [notice] 4355#4355: reconfiguring
+2021/03/12 14:14:00 [emerg] 4355#4355: "proxy_set_header" directive is not allowed here in /home/box/nginx.conf:40
+2021/03/12 14:14:34 [notice] 4355#4355: signal 1 (SIGHUP) received from 5048, reconfiguring
+2021/03/12 14:14:34 [notice] 4355#4355: reconfiguring
+2021/03/12 14:14:34 [emerg] 4355#4355: "proxy_set_header" directive is not allowed here in /home/box/nginx.conf:40
+2021/03/12 14:15:28 [notice] 4355#4355: signal 1 (SIGHUP) received from 5088, reconfiguring
+2021/03/12 14:15:28 [notice] 4355#4355: reconfiguring
+2021/03/12 14:15:28 [notice] 4355#4355: using the "epoll" event method
+2021/03/12 14:15:28 [notice] 4355#4355: start worker processes
+2021/03/12 14:15:28 [notice] 4355#4355: start worker process 5091
+2021/03/12 14:15:29 [notice] 4356#4356: gracefully shutting down
+2021/03/12 14:15:29 [notice] 4356#4356: exiting
+2021/03/12 14:15:29 [notice] 4356#4356: exit
+2021/03/12 14:15:29 [notice] 4355#4355: signal 17 (SIGCHLD) received from 4356
+2021/03/12 14:15:29 [notice] 4355#4355: worker process 4356 exited with code 0
+2021/03/12 14:15:29 [notice] 4355#4355: signal 29 (SIGIO) received
+2021/03/12 14:16:19 [notice] 4355#4355: signal 3 (SIGQUIT) received from 5117, shutting down
+2021/03/12 14:16:19 [notice] 5091#5091: gracefully shutting down
+2021/03/12 14:16:30 [notice] 5091#5091: exiting
+2021/03/12 14:16:30 [notice] 5091#5091: exit
+2021/03/12 14:16:30 [notice] 4355#4355: signal 17 (SIGCHLD) received from 5091
+2021/03/12 14:16:30 [notice] 4355#4355: worker process 5091 exited with code 0
+2021/03/12 14:16:30 [notice] 4355#4355: exit
