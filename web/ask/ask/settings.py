@@ -26,7 +26,7 @@ SECRET_KEY = 'e50^7pb3*gf@ubivu7s_7+n6xr%e3h#3zp=+#@+%@h7l#ob&!5'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '0.0.0.0',
+    '*'
 ]
 
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ask',
     'qa',
 ]
 
